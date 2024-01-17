@@ -6,10 +6,11 @@ namespace ProiectGM.Models
     {
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Numele departamentului este obligatoriu.")]
+        [Required(ErrorMessage = "Pictura renascentista")]
         public string Name { get; set; }
 
         // Alte proprietăți
         public Exhibition Exhibition { get; set; }
+        public int ExhibitionId { get; set; }
     }
 }

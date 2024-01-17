@@ -26,6 +26,4 @@ namespace ProiectGM.Models
         public Department Department { get; set; }
         public List<Visitor> Visitors { get; set; }
     }
-
- 
 }
