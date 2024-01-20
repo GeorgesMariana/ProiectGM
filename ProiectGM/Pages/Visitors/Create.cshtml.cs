@@ -33,7 +33,7 @@ namespace ProiectGM.Pages.Visitors
         {
           if (!ModelState.IsValid || _context.Visitor == null || Visitor == null)
             {
-                return Page();
+               // return Page();
             }
 
             _context.Visitor.Add(Visitor);

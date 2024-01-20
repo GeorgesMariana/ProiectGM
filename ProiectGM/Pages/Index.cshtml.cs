@@ -14,7 +14,8 @@ namespace ProiectGM.Pages
 
         public void OnGet()
         {
-
+            ViewData["Message"] = "Platforma de Management pentru Galeriile de Arta";
         }
+
     }
 }
